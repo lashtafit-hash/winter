@@ -17,13 +17,13 @@
 - `index.html`: оформленная зимняя страница, OG и Twitter Card, ссылка на `preview.jpg`.
 - `.nojekyll`: отключение обработки Jekyll при публикации через GitHub Pages.
 
-Планируемый статический адрес страницы:
-`https://lashtafit-hash.github.io/winter/`
+Действующий адрес страницы:
+`https://www.winter.watchmecreative.space/`
 
-Планируемый прямой адрес фотографии:
-`https://lashtafit-hash.github.io/winter/preview.jpg`
+Прямой адрес фотографии после загрузки:
+`https://www.winter.watchmecreative.space/preview.jpg`
 
-**Важно:** GitHub Pages должен быть включён: **Settings → Pages → Build and deployment → Deploy from a branch → main → /(root) → Save**. Пока GitHub Pages не включён и фото не загружено, ссылки могут давать 404. Если позже будет отдельный домен, обновим canonical/OG URL, а не будем подставлять неработающий домен заранее.
+**Текущий статус:** собственный домен `www.winter.watchmecreative.space` уже отвечает HTTP 200 с GitHub Pages. DNS указывает на GitHub Pages. `preview.jpg` пока не загружен, поэтому изображение не готово к тесту. Этот путь НЕ проходит через Cloudflare Worker и сам по себе НЕ активирует Telegram-радар. Для сетевого эксперимента использовать отдельный URL Worker после подключения D1 и проверки работы.
 
 ## Как это связано с будущим Worker
 
